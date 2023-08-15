@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+transformers = "*"
+torch = "!=2.0.1,>=2.0.0"
+pandas = "*"
+cookiecutter = "*"
+click = "*"
+sphinx = "*"
+coverage = "*"
+awscli = "*"
+python-dotenv = "*"
+tensorboard = "*"
+tox = "*"
+pytest = "*"
+pytest-sugar = "*"
+black = {version = "*", extras = ["jupyter"]}
+isort = "*"
+tqdm = "*"
+# Probably don't need these
+# pylint
+# mllint
+# flake8
+trlx = {git = "https://github.com/CarperAI/trlx"}
+ipywidgets = "*"
+peft = "*"
+accelerate = "*"
+bitsandbytes = "*"
+scipy = "*"
+sentencepiece = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"
